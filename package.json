@@ -1,0 +1,15 @@
+{
+  "name": "contentful-tool",
+  "version": "1.0.0",
+  "description": "Tool for working with Contentful GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "introspect": "node generate-docs.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "author": "dmason-mlb",
+  "license": "MIT"
+}

@@ -1,0 +1,23 @@
+# Environment variables with secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Documentation with sensitive data
+docs/schema.json
+docs/object-types.md
+
+# Any files with hardcoded credentials
+**/query-*.js
